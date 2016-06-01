@@ -1,0 +1,14 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'essay.blg'
+[56] biber-darwin:287> INFO - === Wed Jun  1, 2016, 12:39:11
+[72] Biber.pm:347> INFO - Reading 'essay.bcf'
+[184] Biber.pm:741> INFO - Found 3 citekeys in bib section 0
+[195] Biber.pm:3150> INFO - Processing section 0
+[244] Biber.pm:3307> INFO - Looking for bibtex format file 'essay.bib' for section 0
+[286] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[290] bibtex.pm:985> INFO - Found BibTeX data source 'essay.bib'
+[454] UCollate.pm:65> INFO - Overriding locale 'zh__pinyin' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[454] UCollate.pm:65> INFO - Overriding locale 'zh__pinyin' defaults 'variable = shifted' with 'variable = non-ignorable'
+[454] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'zh__pinyin'
+[461] bbl.pm:519> INFO - Writing 'essay.bbl' with encoding 'UTF-8'
+[461] bbl.pm:615> INFO - Output to essay.bbl

@@ -2,7 +2,6 @@
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as pyplot
-import matplotlib.animation as animation
 
 from life import Life
 
@@ -16,14 +15,12 @@ class View:
     pyplot.yticks([])
 
     self.pic = None
-    self.pics = []
 
   def update(self):
     if self.pic != None:
       self.pic.remove()
 
     self.pic = pyplot.pcolor(self.life.state, cmap=matplotlib.cm.gray_r)
-    self.pics.append(self.pic) # stored for animation
     self.fig.canvas.draw()
 
   def animate(self, steps=10):

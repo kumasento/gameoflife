@@ -1,0 +1,98 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{berlekamp2004winning}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ae695c781354e0a152063a6937b2f91b}{%
+           family={Berlekamp},
+           family_i={B\bibinitperiod},
+           given={Elwyn\bibnamedelima R},
+           given_i={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=73f46e6e36c1e179e776f0c7b77db775}{%
+           family={Conway},
+           family_i={C\bibinitperiod},
+           given={John\bibnamedelima H},
+           given_i={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=63827a6730b99e99f7b9f1f672ffcdc3}{%
+           family={Guy},
+           family_i={G\bibinitperiod},
+           given={Richard\bibnamedelima K},
+           given_i={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AK Peters}%
+      }
+      \strng{namehash}{6e21c9a4d63726d5e5dfd69cba2085a3}
+      \strng{fullhash}{6e21c9a4d63726d5e5dfd69cba2085a3}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Winning ways for your mathematical plays}
+      \field{year}{2004}
+    \endentry
+    \entry{gardner1970mathematical}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3124882705abf7cca548c58eb9240b39}{%
+           family={Gardner},
+           family_i={G\bibinitperiod},
+           given={Martin},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{fullhash}{3124882705abf7cca548c58eb9240b39}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific American}
+      \field{number}{4}
+      \field{title}{Mathematical games: The fantastic combinations of John Conway’s new solitaire game “life”}
+      \field{volume}{223}
+      \field{year}{1970}
+      \field{pages}{120\bibrangedash 123}
+      \range{pages}{4}
+    \endentry
+    \entry{schiff2011cellular}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c7eefaf284a1b794fab03f5523cfd77a}{%
+           family={Schiff},
+           family_i={S\bibinitperiod},
+           given={Joel\bibnamedelima L},
+           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{c7eefaf284a1b794fab03f5523cfd77a}
+      \strng{fullhash}{c7eefaf284a1b794fab03f5523cfd77a}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cellular automata: a discrete view of the world}
+      \field{volume}{45}
+      \field{year}{2011}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
